@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Angelica Lane</span></h2>
+            <h3>I'm a Full Stack Web Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Angelica Lane</b>, a Web Developer</h2>
+                <p>I enjoy coding and I will be happy to help you make your website.</p><br>
+                <p>I am a highschool junior, soon to be senior, I am certified in HTML and CSS so you know I can get the job done.</p>
+                <div class="heading bottom">
+                    <a href="images/resume.docx" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Angelica Lane<br>
+                        <b>Age:</b> 16
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> alane14106@gmail.com<br>
+                        <b>Location:</b> United States
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Services I offer to my clients</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>Web Design CSS</h3> 
+                <p>I know my way around CSS, you can trust me to be up for the task.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-wordpress fa-4x"></i>
+                <h3>Fullstack Developer</h3>
+                <p>I've made plently of wonderful websites.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Latest Works</h2>
+            <p>Showcasing some of my <b>websites</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://aratakiichi.github.io/movieapp/" target="_blank">
+                    <img src="" alt="">
+                    <p>Movie Information Website</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://aratakiichi.github.io/drawing-app/" target="_blank">
+                    <img src="" alt="">
+                    <p>Simple Drawing Canvas Website</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://aratakiichi.github.io/dadjokes/" target="_blank">
+                    <img src="" alt="">
+                    <p>Dad Jokes Generator Website</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://aratakiichi.github.io/splitlanding/" target="_blank">
+                    <img src="" alt="">
+                    <p>Split Landing Website</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://aratakiichi.github.io/expandingcard/" target="_blank">
+                    <img src="" alt="">
+                    <p>Expanding Images Website</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://aratakiichi.github.io/fashionweb/" target="_blank">
+                    <img src="" alt="">
+                    <p>Sample Website for Fashion</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://github.com/aratakiichi" target="_blank" class="btn" style="color:#fff;">Take a look at all of my websites</a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my clients think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Angelica did an excellent job, she addressed our request quickly while also providing her own graphic insight. She's always open to feedback and changes or edits when they arose. She worked with us the entire time. Highly recommended.</p>
+                <h3>Wallace Hall<br>Creative Designer</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>She makes her websites fast, without sacrificing any quality; go hire her!</p><h3>Kerkylas of Andros<br>Web Designer</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work for the right project<br> Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Waffle House<br>Go behind it<br>The one closest to you<br>You'll find me</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone:</h3>
+                            <p>8508989559</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>alane14106@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2022, aratakiichi.com, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
