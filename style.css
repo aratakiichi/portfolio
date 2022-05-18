@@ -45,7 +45,7 @@ header ul li a{
     color:#fff;
     text-decoration: none;
 }
-/* Creating Stiky Header Menu Nav Bar */
+
 header.sticky{
     background:#fff;
     padding:20px 100px;
@@ -58,7 +58,6 @@ header.sticky ul li a{
     color:#111;
 }
 
-/* Creating Services Layout */
 section{
     padding:80px;
 }
@@ -102,7 +101,7 @@ section{
     letter-spacing: 2px;
     font-weight: 500;
 }
-    /* Creating About Layout */
+
 .content{
     display:flex;
     justify-content: space-between;
@@ -194,7 +193,6 @@ img{
     color:#009e66;
 }
 
-/* Creating Work Layout in CSS */
 .work .content{
     display:flex;
     justify-content: center;
@@ -234,7 +232,6 @@ img{
     font-weight: 600;
 }
 
-/* Creating Testimonial Layout in CSS */
 .testimonial{
     background:#111;
 }
