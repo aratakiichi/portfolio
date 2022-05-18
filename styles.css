@@ -65,7 +65,7 @@ section{
     position:relative;
     min-height: 100vh;
     background:#111;
-    background:url(images/myPic1.jpg);
+    background:url(images/myPic1.png);
     background-size:cover;
     background-position: right;
     display:flex;
