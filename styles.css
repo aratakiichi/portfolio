@@ -233,6 +233,14 @@ img{
     font-weight: 600;
 }
 
+.services .content .servicesBx a:link,
+.services .content .servicesBx a:visited,
+.services .content .servicesBx a:active{
+	color:#FFFFFF;
+	text-decoration: none;
+	font-weight: 600;
+}
+
 .testimonial{
     background:#111;
 }
@@ -532,4 +540,5 @@ footer.copyright{
         flex-direction:column;
     }
 }
+
 
